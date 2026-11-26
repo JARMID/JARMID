@@ -2,7 +2,7 @@
 
 **Ethical Hacker (Cisco Networking Academy) | AI & Full-Stack Systems Engineer | Algiers, Algeria**
 
-I build local-first business software, zero-trust payment backends, and AI security guardrails that hold up under real network outages and real attackers. Most of my commercial client systems (offline POS, 3D WebGL configurators, Edge AI vision, OBD-II workshop tools, and fintech ledgers) live in private repositories. The public repositories pinned below are standalone, clean-room engineering kits with zero-dependency Node.js 20+ test suites.
+I build local-first business software, zero-trust payment backends, and AI security guardrails that hold up under real network outages and real attackers. Most of my commercial client systems (offline POS, 3D WebGL configurators, Edge AI vision, OBD-II workshop tools, and fintech ledgers) live in private repositories. The public repositories pinned below are standalone, clean-room engineering kits with zero-dependency Python 3.10+ and Node.js 20+ test suites.
 
 [Portfolio](https://madjid-founder-portfolio.vercel.app) · [Credly Credentials](https://www.credly.com/users/khalef-abdelmadjid) · [Instagram (@jar.mid)](https://www.instagram.com/jar.mid/) · [Email](mailto:supamiarozo@gmail.com)
 
@@ -43,6 +43,7 @@ flowchart LR
 
 | Repository | Focus | What It Proves |
 | :--- | :--- | :--- |
+| [**ai-agent-tool-firewall**](https://github.com/JARMID/ai-agent-tool-firewall) | Dual-Runtime AI & MCP Security | Zero-dependency Python 3.10+ & TypeScript 5+ policy firewall blocking SSRF/obfuscated IPs, symlink & NTFS ADS workspace escapes, CLI flag injection, and Base64/NFKC secret exfiltration (`unittest` + `node --test`). |
 | [**zero-trust-webhook-ledger**](https://github.com/JARMID/zero-trust-webhook-ledger) | Security & Fintech Backend | Constant-time raw-byte HMAC-SHA256 verification, replay-proof idempotency keys, and PostgreSQL `FORCE ROW LEVEL SECURITY` double-entry SQL locks (`node --test`). |
 | [**prompt-injection-checkout-guard**](https://github.com/JARMID/prompt-injection-checkout-guard) | Offensive-to-Defensive AI Security | 22-vector red-team exploit harness (price override, NFKC/newline smuggling, tool hijacking) paired with a zero-trust server-side price-lock guardrail (`node --test`). |
 | [**local-first-outbox-sync**](https://github.com/JARMID/local-first-outbox-sync) | Offline-First Systems | Crash-safe `fsync` local transaction outbox queue with torn-write truncation, single-flight sync mutex, and zero-duplicate reconnect replay (`node --test`). |
