@@ -2,35 +2,35 @@
 
 **Ethical Hacker (Cisco Networking Academy) | AI & Full-Stack Systems Engineer | Algiers, Algeria**
 
-I build local-first business software, zero-trust payment backends, and AI security guardrails that hold up under real network outages and real attackers. Most of my commercial client systems (offline POS, 3D WebGL configurators, Edge AI vision, OBD-II workshop tools, and fintech ledgers) live in private repositories. The public repositories pinned below are standalone, clean-room engineering kits with zero-dependency Python 3.10+ and Node.js 20+ test suites.
+I design resilient local-first applications, zero-trust payment backends, and deterministic AI security guardrails. Commercial client projects and proprietary venture systems remain strictly private; the repositories pinned below are standalone, clean-room MIT engineering primitives with zero external runtime dependencies.
 
 [Portfolio](https://madjid-founder-portfolio.vercel.app) · [Credly Credentials](https://www.credly.com/users/khalef-abdelmadjid) · [Instagram (@jar.mid)](https://www.instagram.com/jar.mid/) · [Email](mailto:supamiarozo@gmail.com)
 
 ---
 
-## Engineering Architecture Map
+## Engineering Focus
 
 ```mermaid
 flowchart LR
-    subgraph SEC["Offensive & Defensive Security"]
+    subgraph SEC["Security & AppSec"]
         A1["OWASP Top 10 & Pentesting"]
         A2["Timing-Safe HMAC & Anti-Replay"]
         A3["PostgreSQL FORCE RLS"]
-        A4["LLM Prompt Injection Defense"]
+        A4["AI Agent Tool Firewalls"]
     end
 
-    subgraph SYS["Local-First & Full-Stack Systems"]
+    subgraph SYS["Systems Engineering"]
         B1["React 19 · TypeScript · Vite"]
         B2["Tauri v2 (Rust) · Flutter 3"]
-        B3["Node.js · Go · Laravel 12"]
-        B4["SQLite WAL Outbox & Sync"]
+        B3["Node.js · Python · Go · Laravel 12"]
+        B4["Local-First Outbox & Sync"]
     end
 
-    subgraph AI["AI Agents & Edge Engineering"]
+    subgraph AI["Applied AI & Cloud"]
         C1["Vertex AI · Gemini Multimodal"]
         C2["Structured Tool-Calling Guardrails"]
-        C3["YOLOv11 Edge Vision & OCR"]
-        C4["Automated Testing & Cloud Edge"]
+        C3["Edge Vision & Automation"]
+        C4["Cloudflare Workers & GCP IAM"]
     end
 
     SEC --> SYS
@@ -39,14 +39,14 @@ flowchart LR
 
 ---
 
-## Featured Open-Source Engineering Kits
+## Pinned Open-Source Primitives
 
-| Repository | Focus | What It Proves |
+| Repository | Domain | Highlights |
 | :--- | :--- | :--- |
-| [**ai-agent-tool-firewall**](https://github.com/JARMID/ai-agent-tool-firewall) | Dual-Runtime AI & MCP Security | Zero-dependency Python 3.10+ & TypeScript 5+ policy firewall blocking SSRF/obfuscated IPs, symlink & NTFS ADS workspace escapes, CLI flag injection, and Base64/NFKC secret exfiltration (`unittest` + `node --test`). |
-| [**zero-trust-webhook-ledger**](https://github.com/JARMID/zero-trust-webhook-ledger) | Security & Fintech Backend | Constant-time raw-byte HMAC-SHA256 verification, replay-proof idempotency keys, and PostgreSQL `FORCE ROW LEVEL SECURITY` double-entry SQL locks (`node --test`). |
-| [**prompt-injection-checkout-guard**](https://github.com/JARMID/prompt-injection-checkout-guard) | Offensive-to-Defensive AI Security | 22-vector red-team exploit harness (price override, NFKC/newline smuggling, tool hijacking) paired with a zero-trust server-side price-lock guardrail (`node --test`). |
-| [**local-first-outbox-sync**](https://github.com/JARMID/local-first-outbox-sync) | Offline-First Systems | Crash-safe `fsync` local transaction outbox queue with torn-write truncation, single-flight sync mutex, and zero-duplicate reconnect replay (`node --test`). |
+| [**ai-agent-tool-firewall**](https://github.com/JARMID/ai-agent-tool-firewall) | AI & MCP Security | Dual-runtime Python 3.10+ & TypeScript 5+ zero-trust policy firewall blocking obfuscated SSRF, symlink/NTFS ADS traversal, CLI flag smuggling, and outbound secret exfiltration (`14/14` red-team tests). |
+| [**zero-trust-webhook-ledger**](https://github.com/JARMID/zero-trust-webhook-ledger) | Security & Fintech Backend | Constant-time raw-byte HMAC-SHA256 verification, replay-proof idempotency keys, and PostgreSQL 17 `FORCE ROW LEVEL SECURITY` double-entry SQL locks (`node --test`). |
+| [**prompt-injection-checkout-guard**](https://github.com/JARMID/prompt-injection-checkout-guard) | Defensive AI Security | 22-vector red-team exploit harness (price override, NFKC/bidi smuggling, tool hijacking) paired with a deterministic server-side price-lock guardrail (`node --test`). |
+| [**local-first-outbox-sync**](https://github.com/JARMID/local-first-outbox-sync) | Offline-First Systems | Crash-safe `fsync` append-only outbox queue with torn-write truncation, single-flight sync mutex, and idempotent reconnect replay (`node --test`). |
 
 ---
 
@@ -64,15 +64,9 @@ flowchart LR
 
 - **Languages:** TypeScript, JavaScript, Python, Rust, Go, Dart, PHP, SQL, C#, C++
 - **Frontend & Cross-Platform:** React 19, Next.js, Tailwind CSS, Three.js WebGL, Flutter 3, Tauri v2
-- **Backend & Data:** Node.js, Go (Gin), Laravel 12, PostgreSQL (RLS), SQLite WAL, Redis, Cloudflare Workers
+- **Backend & Data:** Node.js, Go, Laravel 12, PostgreSQL (RLS), SQLite, Redis, Cloudflare Workers
 - **Security & Cloud:** OWASP Top 10, Kali Linux, Nmap, Burp Suite, Wireshark, Google Cloud (VPC/IAM), Docker, GitHub Actions
 
 ---
 
-## Activity Snapshot
-
-![JARMID GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JARMID&theme=github-compact&hide_border=true)
-
----
-
-*Languages: Arabic (Native) · French (Bilingual) · English (Bilingual) · Available for remote engineering, AppSec audits, and AI systems roles.*
+*Languages: Arabic (Native) · French (Bilingual) · English (Bilingual) · Open to remote engineering, AppSec, and AI systems roles.*
